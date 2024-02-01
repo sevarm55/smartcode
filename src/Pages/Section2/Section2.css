@@ -1,0 +1,129 @@
+.sec2 {
+    background: transparent;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.sec2-header {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2-sub-padding {
+    width: 70%;
+    height: 100%;
+    background-color: rgba(33, 33, 39, 0.4);
+    /* box-shadow: inset 0px 1px 0px 0px  rgba(255, 255, 255, 0.177); */
+    border-radius: 12px 12px 0 0;
+    border: 1px solid rgba(255, 255, 255, 0.096);
+}
+
+.sec2-sub-head {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-cirlbox {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec2-sub-left-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+}
+
+.sec2-sub-left {
+    width: 100px;
+    height: 100%;
+}
+
+.sec2-sub-right {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2-link-box {
+    width: 90%;
+    height: 60%;
+    background-color: rgba(33, 33, 39, 0.4);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.177);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c1c1c194;
+}
+
+/* body */
+
+.sec2-body {
+    width: 100%;
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2-sub-body {
+    width: 70%;
+    /* background: linear-gradient(#f3b01a, transparent); */
+    min-height: 100%;
+    border: 1px solid #ffffff18;
+    border-radius: 0 0 12px 12px;
+    border-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2-left {
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec2-card {
+    width: 400px;    
+    padding: 3rem 4rem;
+    background-color: rgba(33, 33, 39, .4);
+    box-shadow: inset 0px 1px 0px 0px  rgba(255, 255, 255, .06);
+    border-radius: 30px;
+    cursor: grabbing;
+}
+
+.sec2-card h2 {
+    user-select: none;
+}
+
+.sec2-card p {
+    padding-top: 1rem;
+    line-height: 150%;
+    user-select: none;
+}
+
+.sec2-right {
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 30px;
+}

@@ -1,0 +1,19 @@
+.start-btn {
+    border: 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #F3B01A;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #F3B01A;
+    font-size: 15px;
+}
+
+.start-btn:hover {
+    box-shadow: #F3B01A 0px 0px 10px 0px;
+    background-color: #090910;
+    border: 1px solid #F3B01A;
+    color: #F3B01A;
+}

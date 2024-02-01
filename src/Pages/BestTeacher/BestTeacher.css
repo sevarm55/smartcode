@@ -1,0 +1,21 @@
+.BestTeacher {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    padding: 0 100px;
+}
+
+.best-left {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bestright {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}

@@ -1,0 +1,75 @@
+.section1 {
+    width: 100%;
+    height: 70vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section1 h2 {
+    color: #ffffffad;
+    text-align: center;
+    font-size: 56px;
+}
+
+.section1 span {
+    color: #ffffffad;
+    font-size: 19px;
+}
+
+.light {
+    width: 45%;
+    height: 270px;
+    background-color: #f3ae1a;
+    filter: blur(150px);
+    transform: rotate(360deg);
+    position: absolute;
+    bottom: -60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+.smartcode {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+}
+
+.smartcode svg {
+    width: 95%;
+    height: 95%;
+}
+
+.scrollicon {
+    width: 30px;
+    height: 50px;
+    border: 1px solid #F3B01A;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.scrolmouse {
+    width: 5px;
+    height: 9px;
+    border-radius: 100px;
+    background-color: #F3B01A;
+    opacity: 0;
+}

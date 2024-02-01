@@ -1,0 +1,41 @@
+.sec6_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sec6_card h2, p {
+    background-image: linear-gradient(0deg, #61646b 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sec6_title h2 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.sec6_card {
+    width: 800px;
+    height: auto;
+    background-color: transparent;
+    border-bottom: 1px solid #61646b35;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.sec6_card:hover {
+    background-color: #61646b19;
+}
+
+.plusIcon {
+    font-size: 24px;
+    color: #F3B01A;
+}
+
+.sec6_card p {
+    padding: 20px;
+    font-size: 16px;
+}

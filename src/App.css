@@ -1,0 +1,13 @@
+/* html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.section1,
+.sec2,
+.section3,
+.section4,
+.section5 {
+    height: auto;
+    scroll-snap-align: center;
+} */
