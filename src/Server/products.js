@@ -1,0 +1,88 @@
+const products = [
+  {
+    id: 1,
+    title: "WEB Front-End",
+    price: 58000,
+    time: "8 ամիս",
+    image: "https://svgur.com/i/yj4.svg",
+  },
+  {
+    id: 2,
+    title: "Python (ML / AI)",
+    price: 68000,
+    time: "7 ամիս",
+    image: "https://svgur.com/i/yhJ.svg",
+  },
+  {
+    id: 3,
+    title: "Java",
+    price: 68000,
+    time: "6 ամիս",
+    image: "https://svgur.com/i/yhi.svg",
+  },
+  {
+    id: 4,
+    title: "JavaScript",
+    price: 58000,
+    time: "3 ամիս",
+    image: "https://svgur.com/i/yiv.svg",
+  },
+  {
+    id: 5,
+    title: "React.js (Redux)",
+    price: 58000,
+    time: "3 ամիս",
+    image: "https://svgur.com/i/yj5.svg",
+  },
+  {
+    id: 6,
+    title: "Node.js",
+    price: 68000,
+    time: "3 ամիս",
+    image: "https://svgur.com/i/yi4.svg",
+  },
+  {
+    id: 7,
+    title: "DevOps",
+    price: 68000,
+    time: "4 ամիս",
+    image: "https://svgur.com/i/yia.svg",
+  },
+  {
+    id: 8,
+    title: "C#",
+    price: 68000,
+    time: "6 ամիս",
+    image: "https://svgur.com/i/yhJ.svg",
+  },
+  {
+    id: 9,
+    title: "UI / UX Design",
+    price: 65000,
+    time: "4 ամիս",
+    image: "https://svgur.com/i/yj4.svg",
+  },
+  {
+    id: 10,
+    title: "Python (Django)",
+    price: 68000,
+    time: "5 ամիս",
+    image: "https://svgur.com/i/yia.svg",
+  },
+  {
+    id: 11,
+    title: "PHP (Laravel)",
+    price: 68000,
+    time: "3 ամիս",
+    image: "https://svgur.com/i/yia.svg",
+  },
+  {
+    id: 12,
+    title: "WEB Full-Stack",
+    price: 58000,
+    time: "11 ամիս",
+    image: "https://svgur.com/i/yi4.svg",
+  },
+]
+
+export default products

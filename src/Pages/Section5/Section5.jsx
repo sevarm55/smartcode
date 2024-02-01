@@ -7,13 +7,14 @@ import { actionFetchUsers } from "../../Store/Slices/UsersData/Action";
 import { selectHoverId } from "../../Store/Slices/HoverId/HoverIdSlice";
 import { actionHoverId } from "../../Store/Slices/HoverId/Action";
 
+import userss from '../../Server/users'
+
 import "./Section5.css";
 
 const Section5 = () => {
     const dispatch = useDispatch();
     const users = useSelector(selectUsers);
     const hoverId = useSelector(selectHoverId);
-
     useEffect(() => {
         dispatch(actionFetchUsers());
     }, []);
@@ -33,7 +34,7 @@ const Section5 = () => {
                 </span>
             </motion.div>
             <div className="sec5_bottom">
-                {users.map((el, i) => {
+                {userss.map((el, i) => {
                     return (
                         <motion.div
                             key={el.id}

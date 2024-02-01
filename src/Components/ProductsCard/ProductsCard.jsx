@@ -7,6 +7,8 @@ import { selectProducts } from "../../Store/Slices/ProductsData/ProductsDataSlic
 import { selectCurrentSlide } from "../../Store/Slices/CurrentSlide/CurrentSlideSlice";
 import { actionCurrentSlide } from "../../Store/Slices/CurrentSlide/Action";
 
+import productss from '../../Server/products'
+
 import Button from "../Button/Button";
 
 import "./ProductsCard.css";
@@ -22,7 +24,7 @@ const ProductsCard = () => {
 
     return (
         <div className="productscard">
-            {products
+            {productss
                 .slice(currentSlide * 2, currentSlide * 2 + 2)
                 .map((el) => {
                     return (
@@ -51,7 +53,7 @@ const ProductsCard = () => {
                     );
                 })}
             <div className="dots">
-                {products.slice(6).map((el, index) => (
+                {productss.slice(6).map((el, index) => (
                     <span
                         key={index}
                         className={`dot ${
